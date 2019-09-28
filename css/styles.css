@@ -1,0 +1,248 @@
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+.bg-personalized {
+  background: #000 url("../images/stars.png") repeat top center;
+}
+.navbar {
+  min-height: 80px;
+}
+
+.navbar.navbar-inverse .navbar-header {
+  text-align: center;
+  width: 100%;
+}
+
+.navbar.navbar-inverse .navbar-header .navbar-brand {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-links {
+  width: 30%;
+}
+
+.navbar-text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav {
+  font-size: 1.2rem;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  padding-right: 1%;
+  height: 10%;
+}
+
+.navbar-text {
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 3.2vw;
+  margin-top: 4vw;
+}
+
+.content-element-p {
+  font-size: 1.8vw;
+  text-align: justify;
+}
+
+.height-p {
+  height: 350px;
+}
+
+figure.right img {
+  min-width: 150px;
+  width: 40%;
+  max-height: 700px;
+}
+
+
+@media (max-width: 576px) {
+  main {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .navbar-text {
+    font-size: 1.2rem;
+  }
+  .content-element-p {
+    font-size: 1rem;
+  }
+  .h1 {
+    font-size: 2.2rem;
+  }
+  .h2 {
+    font-size: 2rem;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  figure.right img {
+    min-width: 150px;
+    width: 98%;
+  }
+}
+
+@media (min-width: 576px) and ( max-width: 768px) {
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .navbar-text {
+    font-size: 4vw;
+  }
+  .h2 {
+    font-size: 3.5vw;
+  }
+  .content-element-p {
+    font-size: 2.2vw;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  figure.right img {
+    min-width: 150px;
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px)and (max-width: 992px) {
+  main {
+    width: 84%;
+    margin: 0 auto;
+  }
+  .navbar-text {
+    font-size: 3.5vw;
+  }
+  .h2 {
+    font-size: 3vw;
+  }
+  .content-element-p {
+    font-size: 1.8vw;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  figure.right img {
+    min-width: 150px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-text {
+    font-size: 3vw;
+  }
+  .h2 {
+    font-size: 2.6vw;
+  }
+  .content-element-p {
+    font-size: 1.5vw;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  figure.right img {
+    min-width: 150px;
+    width: 55%;
+  }
+}
+
+.carousel-section {
+  height: 55vh;
+}
+
+.carousel-section div {
+  height: 100%;
+}
+
+/* table */
+
+.highlight {
+  background-color: #0D8BDD;
+  color: white;
+}
+
+.table-logo {
+  width: 24px;
+  height: 24px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+table.table td a.delete {
+  background-color: #E34724;
+  border-radius: 15px;
+}
+
+table.table td a {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  min-width: 24px;
+}
+<
+table.table .form-control {
+  height: 32px;
+  line-height: 32px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+/* form subscription */
+
+.form-dark {
+  font-size: 1rem;
+  background-color: rgb(120, 120, 120);
+  color: white;
+  font-style: bold;
+  align-items: center;
+  width: 90%;
+}
+
+#captcha {
+  border: 2px solid #F64747;
+  background-color: #FFF;
+  height: 100vh;
+  min-height: 960px;
+  max-width: 980px;
+  margin: 0 auto;
+  color: black;
+  font-size: 1.4rem;
+  font-style: bold;
+}
+.valid-feedback{	
+  background-color: white;	
+  border-radius: 5px;	
+  text-align: center;	
+  font-style: bold;	
+}	
+
+ .invalid-feedback{	
+  background-color: white;	
+  border-radius: 5px;	
+  text-align: center;	
+  font-style: bold;	  font-style: bold;
+}
