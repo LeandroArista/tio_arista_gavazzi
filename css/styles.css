@@ -10,6 +10,7 @@ body {
 .bg-personalized {
   background: #000 url("../images/stars.png") repeat top center;
 }
+
 .navbar {
   min-height: 80px;
 }
@@ -72,6 +73,11 @@ figure.right img {
   min-width: 150px;
   width: 40%;
   max-height: 700px;
+}
+
+content-element-image {
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -179,22 +185,35 @@ figure.right img {
 }
 
 /* table */
-
+.disable{
+  pointer-events: none;
+  color:grey;
+}
 .highlight {
   background-color: #0D8BDD;
   color: white;
 }
 
 .table-logo {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   font-size: 13px;
   cursor: pointer;
 }
 
-table.table td a.delete {
+/* table.table td a.delete {
   background-color: #E34724;
   border-radius: 15px;
+} */
+
+.table.table td a.edit:hover{
+  color:orange;
+}
+.table.table td a.delete:hover{
+  color:red;
+}
+.table.table td a.save:hover{
+  color:green;
 }
 
 table.table td a {
@@ -233,16 +252,16 @@ table.table .form-control {
   font-size: 1.4rem;
   font-style: bold;
 }
-.valid-feedback{	
-  background-color: white;	
-  border-radius: 5px;	
-  text-align: center;	
-  font-style: bold;	
-}	
+.valid-feedback{
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-style: bold;
+}
 
- .invalid-feedback{	
-  background-color: white;	
-  border-radius: 5px;	
-  text-align: center;	
+ .invalid-feedback{
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
   font-style: bold;	  font-style: bold;
 }
